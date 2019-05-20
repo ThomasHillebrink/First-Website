@@ -15,8 +15,35 @@ body{
     background: #ffffff;
     border-radius: 10px;
 }
+#big-image{
+    margin: 0px;
+    padding: 0px;
+}
 nav{
-    float: right;
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+    white-space: nowrap;
+    position: sticky;
+}
+
+.nav{
+    color:white;
+    text-decoration: none;
+    padding: 15.5px 15px;
+    border-left: 1px solid #bbb;
+    margin-left: -5px;
+}
+
+.nav a {
+    margin: 0;
+    padding: 0;
+}
+.nav:last-child{
+    border-right: 1px solid #bbb;
+}
+nav a:hover{
+    background-color: rgb(16, 101, 153);
 }
 header{
     padding: 50px;
