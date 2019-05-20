@@ -1,13 +1,15 @@
 *{
     box-sizing: border-box;
 }
-h2, h3{
+h1, h2, h3{
     margin: 0;
+    font-family: 'Roboto', sans-serif;
 }
 body{
-    background-color: rgba(85, 189, 253, 0.541) ;
+    background-color: #50bbfd81 ;
     margin:20px 0;
-    font-family: sans-serif;   
+    font-family: 'Merriweather', serif;
+  
 }
 .wrapper{
     width: 800px;
@@ -43,7 +45,7 @@ nav{
     border-right: 1px solid #bbb;
 }
 nav a:hover{
-    background-color: rgb(16, 101, 153);
+    background-color: #50bbfd81
 }
 header{
     padding: 50px;
@@ -52,6 +54,7 @@ header{
 header > #logo{
     font-size: 2em;
     float: left;
+    font-family: 'Roboto', sans-serif;
 }
 main{
     padding: 50px;
@@ -72,15 +75,18 @@ article:last-child{
 aside{
     width: 28%;
     float: right;
-    background-color: rgb(43, 97, 168);
+    background-color:#3b68e5;
     padding: 10px;
     margin-left: 10px;
     border-radius: 10px;
 }
 aside h3{
-    background-color: rgb(32, 35, 218);
+    background-color:#123186;
     padding: 10px;
     border-radius: 10% ;
+}
+a{
+    color: darkblue;
 }
 footer{
     padding: 20px;
