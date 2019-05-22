@@ -1,7 +1,13 @@
 *{
     box-sizing: border-box;
 }
-h1, h2, h3{
+h1{
+    font-size: 2em;
+    border-bottom: 1px solid gray;
+    padding-bottom: 15px;
+}
+
+h2, h3{
     margin: 0;
     font-family: 'Roboto', sans-serif;
 }
